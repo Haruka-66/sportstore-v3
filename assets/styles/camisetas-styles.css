@@ -1,5 +1,10 @@
 /* camisetas-styles.css */
-
+body{
+    background-image: url("../img/messifondo.jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(20px);
+}
 .navbar {
     padding: 20px;
     background-color: #171717; /* Fondo negro */
@@ -39,7 +44,7 @@
 .camisetas-section {
     text-align: center;
     padding: 50px;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.54);
 }
 
 .camisetas-section h2 {

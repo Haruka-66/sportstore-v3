@@ -195,17 +195,9 @@ hr {
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-    .messi img {
-        max-width: 70%; /* Aumenta el tamaño en pantallas pequeñas */
-    }
-}
 
-@media (max-width: 480px) {
-    .messi img {
-        max-width: 90%; /* Aún más grande en pantallas muy pequeñas */
-    }
-}
+
+
 
 
 
@@ -217,40 +209,31 @@ hr {
     .navbar{
         background-color: rgba(0, 0, 0, 0.75);
     }
-    .novedades-grid {
-        flex-direction: column;
-        gap: 30px;
+    .content_footer {
+        flex-direction: column; /* Apilar los elementos verticalmente en pantallas pequeñas */
+        text-align: center;
     }
 
-    .novedad-item {
-        width: 100%;
-        max-width: 350px;
-        margin: 0 auto;
-    }
-    .banner-text {
-        top: 4rem; /* Ajustado en rem para pantallas medianas */
-        left: 1rem; /* Ajustado en rem para pantallas medianas */
-        font-size: 0.9rem; /* Tamaño de texto más pequeño */
-    }
-    .sports-grid {
+    .footer_bottom {
         flex-direction: column;
-        gap: 30px;
-    }
-
-    .sport-item {
-        width: 100%;
-        max-width: 350px; /* Ajusta el ancho máximo en pantallas pequeñas */
-        margin: 0 auto;
-    }
-    footer{
-        font-size: 0.7rem;
+        text-align: center;
     }
 
 }
 
 @media (max-width: 480px) {
-    .banner-text {
-        color: rgba(255, 255, 255, 0);
+    footer{
+        font-size: 0.6rem;
+    }
+}
+@media (max-width: 576px) {
+
+    footer {
+        padding: 15px 0; /* Ajustar el padding del footer */
+    }
+
+    .social_media a {
+        font-size: 18px; /* Reducir el tamaño de los iconos de redes sociales */
     }
 }
 
