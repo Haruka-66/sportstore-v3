@@ -1,0 +1,180 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-image: url("../img/messifondo.jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(20px);
+
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1em;
+    color: #ddd;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #fde7e7;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+section {
+    color: white;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ol {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.49); /* Fondo negro */
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content_footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profil, .service_area {
+    flex: 1;
+    margin: 10px;
+}
+
+.logo_area {
+    display: flex;
+    align-items: center;
+}
+
+.logo_area img {
+    margin-right: 10px;
+}
+
+.logo_name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.desc_area p {
+    padding-right: 20px;
+    margin: 10px 0;
+}
+
+.social_media a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.service_area ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service_area ul li {
+    margin: 5px 0;
+}
+
+.service_title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+
+.service_area ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.service_area ul li a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #555;
+    margin: 20px 0;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.footer_bottom .copy_right, .footer_bottom .sou {
+    margin: 10px;
+}
+
+.sou a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.sou a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    body{
+        font-size: 0.6rem;
+    }
+    section{
+        font-size: 0.8rem;
+    }
+    footer{
+        font-size: 0.7rem;
+    }
+}

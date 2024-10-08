@@ -1,0 +1,259 @@
+body {
+
+}
+
+body{
+    background-image: url("../img/messifondo.jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(20px);
+}
+/* Navbar */
+.navbar {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0); /* Fondo negro */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Letras blancas */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Logo */
+.navbar-brand.logo img {
+    height: 50px; /* Ajusta la altura del logo */
+}
+
+/* Ícono de Login (Font Awesome) */
+.navbar-brand.login-icon i {
+    color: #888888; /* Blanco por defecto */
+    transition: color 0.3s ease;
+}
+
+/* Hover en el ícono de Login */
+.navbar-brand.login-icon i:hover {
+    color: #ffffff;
+}
+
+/* Botón hamburguesa (para móvil) */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.7)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.image-map {
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.image-map img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Estilos para las áreas clicables */
+.image-map a {
+    position: absolute;
+    display: block;
+    border: 2px solid transparent;
+}
+
+/* Camiseta */
+.image-map .shirt {
+    top: 18%;  /* Aproximadamente 18% del alto de la imagen */
+    left: 41%; /* Aproximadamente 41% del ancho de la imagen */
+    width: 18%; /* 18% del ancho */
+    height: 25%; /* 25% del alto */
+}
+
+/* Shorts */
+.image-map .shorts {
+    top: 50%;  /* Aproximadamente 50% del alto */
+    left: 43%; /* Aproximadamente 43% del ancho */
+    width: 14%; /* 14% del ancho */
+    height: 16%; /* 16% del alto */
+}
+
+/* Tenis */
+.image-map .shoes {
+    top: 78%;  /* Aproximadamente 78% del alto */
+    left: 42%; /* Aproximadamente 42% del ancho */
+    width: 16%; /* 16% del ancho */
+    height: 8%;  /* 8% del alto */
+}
+/* Estilos del footer */
+
+footer {
+    background-color: rgb(0, 0, 0); /* Fondo negro */
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content_footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profil, .service_area {
+    flex: 1;
+    margin: 10px;
+}
+
+.logo_area {
+    display: flex;
+    align-items: center;
+}
+
+.logo_area img {
+    margin-right: 10px;
+}
+
+.logo_name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.desc_area p {
+    padding-right: 20px;
+    margin: 10px 0;
+}
+
+.social_media a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.service_area ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service_area ul li {
+    margin: 5px 0;
+}
+
+.service_title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+
+.service_area ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.service_area ul li a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #555;
+    margin: 20px 0;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.footer_bottom .copy_right, .footer_bottom .sou {
+    margin: 10px;
+}
+
+.sou a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.sou a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .messi img {
+        max-width: 70%; /* Aumenta el tamaño en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .messi img {
+        max-width: 90%; /* Aún más grande en pantallas muy pequeñas */
+    }
+}
+
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+    main{
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    .novedades-grid {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .novedad-item {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .banner-text {
+        top: 4rem; /* Ajustado en rem para pantallas medianas */
+        left: 1rem; /* Ajustado en rem para pantallas medianas */
+        font-size: 0.9rem; /* Tamaño de texto más pequeño */
+    }
+    .sports-grid {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .sport-item {
+        width: 100%;
+        max-width: 350px; /* Ajusta el ancho máximo en pantallas pequeñas */
+        margin: 0 auto;
+    }
+    footer{
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .banner-text {
+        color: rgba(255, 255, 255, 0);
+    }
+}
+
+
+
+
