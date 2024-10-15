@@ -10,8 +10,22 @@ body{
 }
 /* Navbar */
 .navbar {
-    padding: 20px;
+    padding: 20px 20px 0px;
     background-color: rgba(0, 0, 0, 0); /* Fondo negro */
+}
+.marca{
+    margin-bottom: 7rem;
+}
+.marca h1 {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem; /* Ajusta el tamaño de fuente */
+    text-align: center;
+    width: 100%; /* Para asegurarse de que ocupe todo el ancho */
+    z-index: 1; /* Asegúrate de que esté sobre los otros elementos */
+    color: white;
 }
 
 .navbar-nav .nav-link {
