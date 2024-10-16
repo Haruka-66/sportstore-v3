@@ -255,6 +255,11 @@ hr {
     .info p {
         font-size: 11px; /* Tamaño de la letra */
     }
+    .marca{
+        color: white;
+        text-align: center;
+    }
+
 
 }
 

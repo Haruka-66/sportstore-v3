@@ -53,7 +53,7 @@ body{
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.7)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 .banner-section {
-    margin: 30px;
+    margin: 0 30px 30px;
     border-radius: 20px;
     position: relative;
     height: 500px; /* Altura del banner */
