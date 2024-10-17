@@ -1,0 +1,21 @@
+Instrucciones de Uso
+
+para poder visualizar la pagina se debe ingresar a la carpeta SPORTS en ella se haya el archivo index.html que es 
+la pagina principal de la web, al hacer clic sobre ella se abrirá en su navegador predeterminado, también se puede visualizar a traves del la url y por qr ya que la pagina se encuentra subida a GitHub Pages que nos permite subir webs con determinadas limitaciones, pero que para un proyecto como este no son problema.
+
+Instrucciones de Navegación en Nuestra Página Web
+Logo y Página Principal
+
+Al ingresar a nuestra página web, verás el logo en la esquina superior izquierda, disponible en todas las subpáginas. Puedes hacer clic en el logo en cualquier momento para regresar a la página principal.
+Barra de Navegación
+
+La barra de navegación estará siempre visible en la parte superior de la página, lo que te permitirá acceder fácilmente a las distintas secciones del sitio.
+Acceso a Nuestras Tiendas
+
+En la página principal, verás una imagen de Messi. Para dirigirte a alguna de nuestras tiendas, haz clic en su camiseta, short o medias. También puedes acceder a nuestras tiendas usando las opciones disponibles en la barra de navegación.
+Inicio de Sesión y Registro
+
+Para iniciar sesión, haz clic en el ícono de login ubicado en la esquina superior derecha de la barra de navegación. Si aún no tienes una cuenta, puedes registrarte haciendo clic en la opción Registro, también disponible en la barra de navegación.
+Footer y Redes Sociales
+
+En el footer (pie de página), encontrarás enlaces útiles que te permitirán navegar rápidamente a cualquier sección de nuestra página web. Además, podrás acceder a nuestras redes sociales desde los íconos disponibles en esta sección.
